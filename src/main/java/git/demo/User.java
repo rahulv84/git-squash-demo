@@ -1,7 +1,7 @@
 package git.demo;
 
 /**
- * Hello world!
+ * This is User pojo. This contains user details.
  * 
  */
 public class User {
