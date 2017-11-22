@@ -22,5 +22,9 @@ public class App {
 
 		System.out.println("Users added: " + users);
 
+		System.out.println("Removing users....");
+		users.remove(user1);
+
+		System.out.println("User removed: " + users);
 	}
 }
