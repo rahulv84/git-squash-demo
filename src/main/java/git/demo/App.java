@@ -1,5 +1,7 @@
 package git.demo;
 
+import java.util.LinkedHashSet;
+
 /**
  * This is starting point of the application.
  * 
@@ -13,5 +15,12 @@ public class App {
 
 		final User user2 = new User("Rahul", "Sharma", "sharmaji@gmail.com");
 		System.out.println(user2);
+
+		final LinkedHashSet<User> users = new LinkedHashSet<User>();
+		users.add(user1);
+		users.add(user2);
+
+		System.out.println("Users added: " + users);
+
 	}
 }
